@@ -92,7 +92,7 @@
                         <li><a href="{{ url('users') }}"><i class="fa fa-circle-o"></i>Reporte de Usuarios</a></li>
                     </ul>
                     <ul class="treeview-menu">
-                        <li><a href="{{ url('codigos') }}"><i class="fa fa-circle-o"></i>Reporte de Codigos</a></li>
+                        <li><a href="{{ url('codigos') }}"><i class="fa fa-circle-o"></i>Reporte de Codigos NFC</a></li>
                     </ul>
                     <ul class="treeview-menu">
                         <li><a href="{{ url('mascotas') }}"><i class="fa fa-circle-o"></i>Reporte de Mascotas</a></li>
