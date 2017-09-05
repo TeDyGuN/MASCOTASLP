@@ -1,0 +1,20 @@
+.colorazul {
+    color: #144571;
+    font-weight: bold;
+}
+
+.coloramarillo {
+    color: #F6BB09;
+    font-weight: bold;
+}
+
+.panel-default > .panel-heading {
+    color: #F6BB09;
+    font-size: 1em;
+    font-weight: bold;
+    background: #144571;
+}
+
+#headeremi {
+    background: #e5e5e5;
+}

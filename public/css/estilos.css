@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-size: 16px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    background-color: #5e5e5e;
+
+}
+
+.colorazul {
+    color: #144571;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.coloramarillo {
+    color: #F6BB09;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.panel-default > .panel-heading {
+
+    color: #F6BB09;
+    font-size: 1em;
+    font-weight: bold;
+    background: #144571;
+}
+
+.clasebody {
+
+    max-width: 1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.letragrande {
+    font-size: 20px;
+}
+
+#headeremi {
+    background: #e5e5e5;
+}
+
+#imglogo {
+
+}
+
+#imgsis {
+    margin-top: 0.5em;
+}
+
+#headeremi h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.5em 0 1.5em 0;
+    margin-left: 1em;
+    margin-bottom: 0.3em;
+    color: #144571;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background: #F6BB09;
+    background: -webkit-linear-gradient(top, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+    background: -moz-linear-gradient(top, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+    background: -o-linear-gradient(top, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+    background: -ms-linear-gradient(top, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+    background: linear-gradient(to bottom, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+    -svg-background: linear-gradient(top, #D4A108 0, #F6BB09 20%, #F6BB09 80%, #D4A108 100%) no-repeat;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: white;
+}
+
+.navbar-form .form-control {
+    border: 3px solid #F6BB09;
+
+}
