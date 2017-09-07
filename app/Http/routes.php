@@ -17,6 +17,7 @@ Route::get('/', function () {
 Route::resource('users', 'UsersController');
 Route::resource('codigos', 'CodigosController');
 Route::resource('mascotas', 'MascotasController');
+Route::resource('veterinarias', 'VeterinariasController');
 Route::group(['middleware' => ['admin'], 'namespace' => 'Admin', 'prefix' => 'Admin'], function()
 {
     Route::get('/', 'GeneralController@index');
@@ -93,6 +94,13 @@ Route::group(['prefix'=> 'nfc', 'namespace' => 'NFC'], function() {
 Route::group(['prefix'=> 'mascota', 'namespace' => 'Mascota'], function() {
 	Route::post('save', 'MascotaController@saveMascota');
 	Route::get('crear', 'MascotaController@getViewSave');
+//	Route::get('crear/nfce', 'NFCController@getExvelSave');
+//	Route::post('saveCSV', 'NFCController@saveCSV');
+	//Route::post('getPublicacion', 'AsignaturaController@getPublicacion');
+});
+Route::group(['prefix'=> 'veterinaria', 'namespace' => 'Veterinaria'], function() {
+	Route::post('save', 'VeterinariaController@saveVeterinaria');
+	Route::get('crear', 'VeterinariaController@getViewSave');
 //	Route::get('crear/nfce', 'NFCController@getExvelSave');
 //	Route::post('saveCSV', 'NFCController@saveCSV');
 	//Route::post('getPublicacion', 'AsignaturaController@getPublicacion');

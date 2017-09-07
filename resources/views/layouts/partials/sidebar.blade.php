@@ -68,14 +68,15 @@
                         <li><a href="{{ url('mascota/crear') }}"><i class="fa fa-circle-o"></i>Registrar Mascota</a></li>
                     </ul>
                 </li>
-                {{--<li class="treeview">--}}
-                    {{--<a href="">--}}
-                        {{--<i class="fa fa-mortar-board "></i><span>Gestion Academica</span>--}}
-                        {{--<i class="fa fa-angle-left pull-right"></i>--}}
-                    {{--</a>--}}
-                    {{--<ul class="treeview-menu">--}}
-                        {{--<li><a href="{{ url('Admin/crear/materia') }}"><i class="fa fa-circle-o"></i>Crear Asignatura</a></li>--}}
-                    {{--</ul>--}}
+                <li class="treeview">
+                    <a href="">                                                                                          {{--<li class="treeview">--}}
+                        <i class="fa fa-user"></i><span>Registro de Veterinarias</span>                                          {{--<a href="">--}}
+                        <i class="fa fa-angle-left pull-right"></i>                                                              {{--<i class="fa fa-mortar-board "></i><span>Gestion Academica</span>--}}
+                    </a>                                                                                                         {{--<i class="fa fa-angle-left pull-right"></i>--}}
+                    <ul class="treeview-menu">                                                                               {{--</a>--}}
+                        <li><a href="{{ url('veterinaria/crear') }}"><i class="fa fa-circle-o"></i>Registrar Veterinarias</a></li>    {{--<ul class="treeview-menu">--}}
+                    </ul>                                                                                                        {{--<li><a href="{{ url('Admin/crear/materia') }}"><i class="fa fa-circle-o"></i>Crear Asignatura</a></li>--}}
+                </li>                                                                                                        {{--</ul>--}}
                     {{--<ul class="treeview-menu">--}}
                         {{--<li><a href="{{ url('Admin/asignar/docente') }}"><i class="fa fa-circle-o"></i>Asignar Docente</a></li>--}}
                     {{--</ul>--}}
@@ -96,6 +97,9 @@
                     </ul>
                     <ul class="treeview-menu">
                         <li><a href="{{ url('mascotas') }}"><i class="fa fa-circle-o"></i>Reporte de Mascotas</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a href="{{ url('veterinarias') }}"><i class="fa fa-circle-o"></i>Reporte de Veterinarias</a></li>
                     </ul>
                 </li>
             @endif

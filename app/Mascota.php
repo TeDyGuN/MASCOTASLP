@@ -32,5 +32,5 @@ class Mascota extends Model
             $table->timestamps();
 	 * */
 	protected $fillable = ['id', 'dnombre', 'dapellido', 'demail', 'dci', 'direccion', 'dtelefono', 'dcelular', 'mnombre'
-		, 'mraza', 'mcolor', 'mpeso', 'motros', 'id_codigo'];
+		, 'mraza', 'mcolor', 'mpeso', 'motros', 'id_codigo', 'esterilizado'];
 }

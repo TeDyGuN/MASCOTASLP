@@ -100,6 +100,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
+                                    <label for="est" class="col-md-4 control-label colorazul letragrande" style="font-size: 1.2em">Esterilizado</label>
+                                    <div class="col-md-6">
+                                        <select class="form-control" id="est" name="est">
+                                            <option>Si</option>
+                                            <option>No</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
                                     <label for="otros" class="col-md-4 control-label colorazul letragrande" style="font-size: 1.2em">Otras Caracteristicas</label>
                                     <div class="col-md-6">
                                         <textarea class="form-control" id="otros" name="otros"  required></textarea>
@@ -116,7 +125,7 @@
                         {{$success = Session::get('success')}}
                         @if ($success)
                             <div class="alert alert-success">
-                                <strong>!!Felicidades!!</strong>Se Creo el Estudiante Correctamente <br><br>
+                                <strong>!!Felicidades!!</strong>Se Registro a la Mascota Correctamente <br><br>
                             </div>
                         @endif
                     </div>

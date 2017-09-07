@@ -27,6 +27,7 @@ class CreateMascotasTable extends Migration
 	        $table->string('mpeso');
 	        $table->string('motros');
 	        $table->string('codigo');
+	        $table->string('esterilizado');
 	        $table->integer('id_codigo')->unsigned();
 	        $table->foreign('id_codigo')->references('id')->on('codigos');
             $table->timestamps();
